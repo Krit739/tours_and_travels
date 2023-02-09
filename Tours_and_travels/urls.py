@@ -19,6 +19,9 @@ from . import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.index, name='index'),
-    path('yt', views.youtube, name='youtube')
+    path('', views.index, name="index"),
+    path('nepal', views.nepal, name="nepal"),
+    path('india', views.india, name="india"),
+    path('china', views.china, name="china"),
+    path('bhutan', views.bhutan, name="bhutan")
 ]
